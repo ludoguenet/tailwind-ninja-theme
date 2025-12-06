@@ -1,0 +1,43 @@
+{
+  "name": "tailwind-ninja-theme",
+  "displayName": "Tailwind Ninja Themes",
+  "icon": "icon.png",
+  "publisher": "LudovicGuenet",
+  "description": "Light and dark themes inspired by Tailwind CSS colors",
+  "version": "1.0.2",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "keywords": [
+    "tailwind",
+    "theme",
+    "dark",
+    "light",
+    "color-theme",
+    "tailwindcss"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ludoguenet/tailwind-ninja-theme.git"
+  },
+  "homepage": "https://github.com/ludoguenet/tailwind-ninja-theme#readme",
+  "bugs": {
+    "url": "https://github.com/ludoguenet/tailwind-ninja-theme/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tailwind Light",
+        "uiTheme": "vs",
+        "path": "./themes/tailwind-light-color-theme.json"
+      },
+      {
+        "label": "Tailwind Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tailwind-dark-color-theme.json"
+      }
+    ]
+  }
+}
