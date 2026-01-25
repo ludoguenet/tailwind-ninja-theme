@@ -62,4 +62,4 @@ MIT License - see LICENSE file for details
 
 ## Author
 
-Created by [LudovicGuenet](https://github.com/LudovicGuenet)
+Created by [LudovicGuenet](https://github.com/ludoguenet)
